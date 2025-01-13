@@ -1,6 +1,12 @@
 # Password Strength Checker
 
-A robust Python utility for validating password strength based on common security criteria. This tool helps ensure passwords meet basic security requirements by checking for length, character variety, and complexity.
+A simple Python utility for validating password strength based on common security criteria. This tool helps ensure passwords meet basic security requirements by checking for length, character variety, and complexity. This will be expanded on in the future by adding the following:
+
+* Password Hashing
+* Rate limiting for password attempts
+* Checks against common password databases
+* Maximum length restriction implementations
+* Protection against SQL injection and other attacks
 
 ## Features
 
@@ -84,7 +90,7 @@ Congratulations! Your password is strong!
 
 ## Security Considerations
 
-While this tool provides basic password strength checking, it should not be used as the sole method for password validation in production systems. Consider these additional security measures:
+While this tool provides basic password strength checking, it should not be used as the sole method for password validation in production systems. As stated above, the following will be added in the near future:
 
 * Implement password hashing
 * Add rate limiting for password attempts
