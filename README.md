@@ -9,4 +9,3 @@ Project consists of a python script that checks if the password is at least 8 ch
 - <b>Python</b>
 
 <h2>Environments Used</h2>
-- <b>VS Code</b>
